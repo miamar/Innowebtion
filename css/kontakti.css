@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("../images/building.jpg");
+	height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 3px;
+	color: #000d1a;
+}
+.navbar{
+	opacity: 0.7;
+}
+.nav-item:hover{
+			background-color: #132639; 
+			border-radius: 25px
+}
+#active{
+			color: white;
+			background-color: #132639; 
+			border-radius: 25px
+}
+
+@media screen and (max-width: 767px) {
+	#active{
+		background-color: #00001a;
+	}
+}
+	
+/*Kontakti*/
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type=submit] {
+  background-color: #00001a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type=submit]:hover {
+  background-color: white;
+	color: #00001a;
+}
+
+.contactContainer {
+  background-color:rgba(220,222,236,0.46)  ;  
+  padding: 10px;
+	float: left;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 10%;
+	border-radius: 10px;
+}
+
+.contacts {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.contactsPlace:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1386px) {
+	.contactContainer {
+		margin-left: 30%;
+	margin-right: 30%;
+	}
+  .contacts, input[type=submit] {
+    width: 80%;
+	  padding-left: 5%;
+		padding-right: 5%;
+  }
+	.contactsPlace{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	img {
+		width: 100%;
+		
+	}
+	
+}
+@media screen and (max-width: 1024px) {
+	.contactContainer {
+		margin-left: 25%;
+	margin-right: 25%;
+	}
+  .contacts, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+	img {
+		width: 100%;
+	}
+	
+}
+@media screen and (max-width: 770px) {
+	.contactContainer {
+		margin-left: 15%;
+	margin-right: 15%;
+	}
+  .contacts, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+	img {
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width: 660px) {
+	.contactContainer {
+		width: 100%;
+		margin: auto;
+	}
+  .contacts, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+	img {
+		width: 100%;
+	}
+	
+}
+.kontakti{
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+	border-radius: 20%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: white;
+  color: #007bb5white;
+}
+.fa-facebook {
+  background: white;
+  color: #3B5998;
+}
+
+/*Podnožje*/
+.footer {
+	float: left;
+	width: 100%;
+	background-color: #00001a;
+    text-align: center;
+    color: white;
+	opacity: 0.7;
+}
