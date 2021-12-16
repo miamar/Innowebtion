@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/telefon.svg" type="image/svg" sizes="16x16">
+	<link href="css/kontakti.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Kontakti</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00001a; min-height: 70px;">
+  <a class="navbar-brand"  href="index.html">innoWEBtion</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+		<li class="nav-item">
+        <a class="nav-link" href="about.html">O nama</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="restorani.html">Usluge</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projekti.html">Projekti</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="active" href="kontakti.html">Kontakt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="posao.html">Posao</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+	
+	<div class="kontakti">
+	<img src="images/kontakti.png" alt="kontakti" style="width:200px; height: 230px;}">
+				<p style="font-weight: bold">Lokacija: Ulica grada Chicaga 10, Zagreb</p><br>
+				<p style="font-weight: bold">Telefon: +385 51 624 176</p><br>
+				<p style="font-weight: bold">Email: innowebtion@gmail.com</p><br>
+		</div>
+	
+	<div class="contactContainer">
+		<div style="text-align:center">
+			<h2></h2>
+		</div>
+		<div class="contactsPlace">
+			<div class="contacts" text align="center">
+				<img src="images/mapa.jpg" alt="mapa" style="widows: 400px; height:300px">
+			</div>
+			<div class="contacts">
+				<form action="slanje.html">
+					<input type="text" id="ime" name="ime" placeholder="Ime">
+					<input type="text" id="prezime" name="prezime" placeholder="Prezime">
+                    <input type="text" id="email" name="email" placeholder="Email..">
+                    <textarea id="poruka" name="poruka" placeholder="Napiši nam nešto..." style="height:170px"></textarea>
+                    <input type="submit" value="Pošalji">
+                </form>
+            </div>
+		</div>
+	</div>
+	
+	<div class="footer" >
+		<br>
+		<p>powered by innoWEBtion</p>
+			  <a href="https://hr-hr.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a><br>
+		<br>
+	</div>
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/logo_only.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/posao.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	
+<title>Posao</title>
+	
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00001a; min-height: 70px;">
+  <a class="navbar-brand"  href="index.html">innoWEBtion</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+		<li class="nav-item">
+        <a class="nav-link" href="about.html">O nama</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="restorani.html">Usluge</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projekti.html">Projekti</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="kontakti.html">Kontakt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="active" href="posao.html">Posao</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+	
+	<div class="container">
+		<div class="row" style="background-color: #EAEBF3">
+		<div class="col-lg-12 col-md-12">
+			<div class="jumbotron jumbotron-fluid" style="text-align: center; background-color: #EAEBF3">
+            <div class="container">
+              <h1 class="display-4">Želiš postati član našeg tima?</h1>
+               <p class="lead">Samo ispuni obrazac,a mi ćemo te povratno kontaktirati &#9998</p>
+				<img src="images/strelica.svg" alt="line" style="width:100px">
+              </div>
+            </div>
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+			<div class="obrazac">
+				<form action="slanje.html">
+					<label class="font-weight-bold">Osobni podaci</label>
+					<input type="text" id="ime" name="ime" placeholder="Ime">
+					<input type="text" id="prezime" name="prezime" placeholder="Prezime">
+                    <input type="text" id="email" name="email" placeholder="Email">
+					<input type="text" id="adresa" name="adresa" placeholder="Adresa">
+					<select name="mjesto">
+						<option value=""  disabled selected>Odaberi mjesto...</option>
+						<option value="ri" >Rijeka</option>
+						<option value="zg">Zagreb</option>
+						<option value="st">Split</option>
+						<option value="os">Osijek</option>
+					</select>
+					<label style="padding-top: 10px">Vaša motivacija</label>
+                    <textarea id="poruka" name="poruka" placeholder="Ukratko opišite koja je Vaša motivacija za prijavu, koji su Vaši skilovi, što biste voljeli raditi itd." style="height:170px"></textarea>
+					
+					<label class="font-weight-bold" style="padding-top: 20px;">Trenutno/Zadnje radno mjesto</label>
+					<input type="text" id="tvrtka" name="tvrtka" placeholder="Tvrtka">
+					<textarea id="pozicija" name="pozicija" placeholder="Opišite Vašu poziciju u toj tvrtci..." style="height:150px"></textarea>
+					<label for="od" style="padding-top: 20px">Od:</label>
+                    <input type="date" id="od" name="od">
+					<label for="do">Do:</label>
+                    <input type="date" id="do" name="do">
+					
+					<label class="font-weight-bold" style="padding-top: 20px">Obrazovanje</label>
+					<input type="text" id="ustanova" name="ustanova" placeholder="Škola ili fakultet">
+					<select name="struka">
+						<option value=""  disabled selected>Odaberi stručnu spremu...</option>
+						<option value="sss" >Srednja stručna sprema</option>
+						<option value="vss">Viša stručna sprema</option>
+						<option value="vs">Visoka stručna sprema</option>
+						<option value="m">Magistar</option>
+						<option value="d">Doktor</option>
+					</select>
+					<label for="odO" style="padding-top: 20px">Od:</label>
+                    <input type="date" id="odO" name="od">
+					<label for="doO">Do:</label>
+                    <input type="date" id="doO" name="doO">
+					<input type="text" id="jezik" name="jezik" placeholder="Nabrojite jezike koje govorite">
+					
+					<label class="font-weight-bold" style="padding-top: 40px;">Priložite CV: <br></label>
+                    <input type="file" id="cv" name="cv" accept="pdf/*" style="padding-bottom: 20px"><br>
+                    <input type="submit" value="Pošalji" >
+                </form>
+            </div>
+		</div>
+	</div>
+		<hr>
+	<br><br>
+	<div class="row">
+		
+          <div class="text-center col-lg-6 offset-lg-3">
+             <p>powered by innoWEBtion</p>
+			  <a href="https://hr-hr.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+          </div>
+       </div>
+	<br><br>
+	</div>
+	
+	<script src="js/jquery-3.4.1.min.js"></script> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
